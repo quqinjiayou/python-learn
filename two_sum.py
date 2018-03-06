@@ -9,6 +9,7 @@ class Solution(object):
             else:
                 buff_dict[target - nums[i]] = i
 
+#start test
 s = Solution()
 x = str(raw_input("Please input the nums(seg by ,):"))
 target = int(raw_input("Please input the target: "))
